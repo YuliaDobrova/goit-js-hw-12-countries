@@ -1,0 +1,67 @@
+body {
+  text-align: center;
+}
+
+#input {
+  height: 35px;
+  width: 300px;
+  margin-top: 50px;
+  margin-bottom: 50px;
+  padding: 10px;
+  font-family: Verdana, Geneva, Tahoma, sans-serif;
+  font-size: 20px;
+  border: 1px solid #000000;
+  border-radius: 5px;
+  box-shadow: 0 0 5px #000000;
+}
+
+#country {
+  font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+
+#country li {
+  font-size: 20px;
+}
+
+#country span {
+  font-size: 20px;
+  font-weight: 400;
+}
+
+#country img {
+  margin: 50px 50px;
+  width: 400px;
+  box-shadow: 0 0 5px #000000;
+}
+
+.heading {
+  text-align: center;
+  justify-content: center;
+  margin: 0 auto;
+  font-size: 40px;
+}
+
+.allInfo {
+  display: flex;
+  flex-wrap: wrap;
+  text-align: center;
+  justify-content: center;
+  margin: 0 auto;
+}
+
+.info {
+  margin: 20px;
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+}
+
+.countries-list {
+  display: block;
+  text-align: left;
+}
+
+.pnotify {
+  position: fixed;
+  height: 100px;
+}
