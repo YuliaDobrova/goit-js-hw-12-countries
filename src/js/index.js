@@ -1,6 +1,6 @@
 import countriesTpl from '../tpl/countries.hbs';
 import countriesListTpl from '../tpl/countries-list.hbs';
-import fetchCountries from '../js/fetchCountries.js';
+import { fetchCountries } from './fetchCountries';
 import debounce from 'lodash.debounce';
 import { error, defaultModules } from '@pnotify/core';
 import '@pnotify/core/dist/BrightTheme.css';
